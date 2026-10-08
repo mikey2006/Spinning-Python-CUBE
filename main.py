@@ -203,7 +203,7 @@ def main():
 
 
 def play_music():
-    music = pyglet.media.load("muzica_cool_trimmed.wav")
+    music = pyglet.media.load("muzica_trimmed.wav")
     player = pyglet.media.Player()
     player.loop = True
     player.queue(music)
